@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+div form h1 {
+    text-align: center;
+    font-size: 55px;
+}
+
+div.info {
+    display: flex;
+    /* margin-top: 100px; */
+}
+
+div.name {
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+label.xyz {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px;
+    text-align: left;
+    margin-top: 10px;
+    width: 200px;
+    align-items: center;
+    text-align: left;
+    font-size: 22px;
+    width: 590px;
+}
+
+input {
+    width: 200px;
+    padding: 8px;
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 590px;
+    height: 35px;
+}
+
+form {
+    width: 600px;
+    /* margin: 200px;
+    margin-top: 20px;
+    margin-left: 50px; */
+    /* align-items: center;
+    text-align: center; */
+    background-color: rgba(235, 229, 229, 255);
+}
+
+div.para p {
+    text-align: center;
+    font-size: 30px;
+}
+
+div img {
+    /* width: 750px; */
+    height: 790px;
+    background-color: rgba(235, 229, 229, 255);
+}
+
+button {
+    width: 250px;
+    margin: 8px;
+    padding: 8px;
+    background-color: rgba(90, 228, 168, 255);
+    outline: none;
+    border: none;
+    border-radius: 18px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s;
+    align-items: center;
+    text-align: center;
+    margin-left: 145px;
+}
+
+button span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+button:hover span {
+    padding-right: 30px;
+
+}
+
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+p a {
+    text-decoration: none;
+    color: black;
+}
+
+p a:hover {
+    font-weight: bold;
+}
+
+div.emmet {
+    align-items: center;
+}
+
+header h1 {
+    align-items: center;
+    text-align: center;
+    font-size: 55px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(235, 229, 229, 255);
+}
+
+.top h1 {
+    background-color: rgba(235, 229, 229, 255);
+}
+
+a {
+    align-items: center;
+    text-align: center;
+    margin-left: 195px;
+}
